@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #d5d4da;
+    font-size: 1em;
+    font-family: arial, helvetica, sans-serif;
+}
+.cabecalho {
+    width: 40%;
+    margin: auto;
+    height: 70px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    clear: both;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: #353535;
+    padding: 8px 12px;
+}
+
+.cabecalho a:hover{
+    color: #1d3357;
+    text-decoration: underline;
+}
+
+.geral {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px auto;
+    background-color: #00bd4f;
+}
+
+.logo{
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.area_geral {
+    padding: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.area_geral h1{
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+
+.conteudo{
+    padding: 15px;
+    float: left;
+    width: 60%;
+    height: auto;
+}
+
+.conteudo p{
+    text-align: justify;
+    background-color: #fffe63;
+    border: 3px solid #2eacb3;
+    padding: 5px;
+}
+
+.conteudo_imagem {
+    float: right;
+    width: 35%;
+    padding-top: 15px;
+}
+
+.conteudo_imagem img{
+    width: 300px;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+.area_rodape{
+    background-color: #454C59;
+    color: #f2f2f2;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+.postagens{
+    width: 100%;
+    height: 300px;
+}
